@@ -96,7 +96,7 @@ print(numero)
 numero.remove(3) # Remove o número 3
 print(numero) 
 
-numeros.add(2) # Tentando adicionar um número já existente (não faz nada)
+numero.add(2) # Tentando adicionar um número já existente (não faz nada)
 print(numero)
 
 #Operações com Conjuntos
@@ -108,3 +108,11 @@ print(A | B) # União (valores presentes em A ou B)
 print(A & B) # Interseção (valores presentes em A e B)
 print (A - B) # Diferença (valores em A que não estão em B)
 print(A ^ B) # Diferença simétrica (valores que estão em A ou B, mas não em ambos)
+
+# FUNÇÕES
+
+def greetings(nome):
+    print(f"Olá, (nome)!")
+
+greetings("Roudgi")
+greetings("Vikitu")
