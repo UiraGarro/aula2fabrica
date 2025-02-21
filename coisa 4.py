@@ -18,3 +18,25 @@ p1.apresentar
 print(f"Meu Imc é {p1.cancular_imc():.2f}")
 
 print(type(p1))
+
+
+#modulos e bibliotecas
+
+import math
+
+print(math.sqrt(16)) # Raiz quadrada 
+print(math.pi) # Valor de PI
+print(math.pow(10,2)) # Elevar o primeiro valor pelo segundo
+
+# Exemplo pratico com random
+
+import random
+
+print(random.randint(1,10)) #numero aleatorio entre 1 e 10
+
+# Exemplo prático com datetime
+
+import datetime
+
+agora = datetime.datetime.now()
+print("Data e hora atual:", agora)
