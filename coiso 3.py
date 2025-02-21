@@ -112,12 +112,13 @@ print(A ^ B) # Diferença simétrica (valores que estão em A ou B, mas não em 
 # FUNÇÕES
 
 def greetings(nome):
-    print(f"Olá, (nome)!")
+    print(f"Olá, {nome}!")
 
 greetings("Roudgi")
 greetings("Vikitu")
 
 def soma(num_1, num_2):
-    return = num_1 + num_2
+    return num_1 + num_2
 
 soma(2, 5)
+print(soma(2, 5))
