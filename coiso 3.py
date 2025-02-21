@@ -119,3 +119,5 @@ greetings("Vikitu")
 
 def soma(num_1, num_2):
     return = num_1 + num_2
+
+soma(2, 5)
